@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    color: black;
+    background-color: lightcoral;
+}
+
+.container{
+  
+   max-width: 1200px;
+   margin: 0 auto;
+   border: 0px solid darkslateblue;
+   display: grid;
+   grid-gap: 20px;
+   grid-template-areas: 
+   "sidenav foto foto"
+   "sidenav foto foto"
+   "sidenav foto foto"
+   "sidenav foto foto"
+   "sidenav footer footer";
+
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 20px solid black;
+}
+
+.sidenav{
+    width: 300px;
+    height: 900px;
+    background-color: lightcoral;
+    border-radius: 20px;
+    grid-area: "sidenav";
+    grid-row: sidenav;
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+    background-color: lightcoral;
+    border-radius: 20px;
+    grid-area: "foto";
+
+}
+
+.footer{
+    width: auto;
+    height: 300px;
+    background-color: lightcoral;
+    border-radius: 20px;
+    grid-area: "footer";
+    grid-column: footer;
+}
+
+
+
